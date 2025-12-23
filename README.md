@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# Smart Outfit Recommendation
 
-## Project info
+## Project Info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**Smart Outfit Recommendation** is a web-based application that provides personalized outfit suggestions based on a user’s body measurements and body shape.  
+The system analyzes user inputs and generates styling recommendations along with visual insights to help users understand fashion trends.
+
+---
 
 ## How can I edit this code?
 
-There are several ways of editing your application.
+There are several ways to edit and maintain this application.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Use Your Preferred IDE (Recommended)
 
-Changes made via Lovable will be committed automatically to this repo.
+If you want to work locally using your own IDE (such as VS Code), follow these steps.
 
-**Use your preferred IDE**
+#### Prerequisites
+- Node.js
+- npm  
+(Install using nvm if required: https://github.com/nvm-sh/nvm#installing-and-updating)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+#### Steps
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate to the project directory
+cd smart-outfit-recommendation
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+The application will be available at:
+http://localhost:5173
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+----
+Edit Files Directly on GitHub
 
-**Use GitHub Codespaces**
+Navigate to the required file in the repository.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Click the Edit (✏️) button.
 
-## What technologies are used for this project?
+Make changes and commit them.
 
-This project is built with:
+Use GitHub Codespaces
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Go to the repository main page.
 
-## How can I deploy this project?
+Click Code → Codespaces → New codespace.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Edit files directly in the browser.
 
-## Can I connect a custom domain to my Lovable project?
+Commit and push changes when done.
 
-Yes, you can!
+What does this project do?
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Accepts user body measurements
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Classifies body shape
+
+Generates personalized outfit recommendations
+
+Displays AI-generated outfit inspiration
+
+Visualizes outfit preference trends using Google technology
+
+Google Technology Used
+Google Charts
+
+This project integrates Google Charts, an official Google visualization library, to display outfit preference insights.
+
+Usage in the project:
+
+Visualizes outfit type distribution (Casual, Formal, Ethnic, Sportswear)
+
+Helps users understand fashion trends visually
+
+Enhances user experience with interactive charts
+
+Why Google Charts?
+
+No API keys required
+
+Easy frontend integration
+
+Official Google technology
+
+Easily upgradeable with real data (Supabase / AI)
+
+Technologies Used
+
+React – Frontend UI library
+
+Vite – Build and development tool
+
+TypeScript – Type-safe JavaScript
+
+Tailwind CSS – Utility-first styling
+
+shadcn/ui & Radix UI – UI components
+
+Supabase – Backend services (functions, data)
+
+Google Charts – Data visualization (Google Technology)
