@@ -37,29 +37,6 @@ npm run dev
 The application will be available at:
 http://localhost:5173
 ```
-----
-**Edit Files Directly on GitHub**
-```sh
-Navigate to the required file in the repository.
-
-Click the Edit (✏️) button.
-
-Make changes and commit them.
-
-Use GitHub Codespaces
-
-Go to the repository main page.
-
-Click Code → Codespaces → New codespace.
-
-Edit files directly in the browser.
-
-Commit and push changes when done.
-
-----
-```
----
-
 ## 📌 **What does this project do?**
 
 ✔ Accepts user body measurements  
@@ -104,4 +81,5 @@ This project integrates **Google Charts**, an official Google visualization libr
 Supabase – Backend services (functions, data)
 
 Google Charts – Data visualization (Google Technology)
+
 
