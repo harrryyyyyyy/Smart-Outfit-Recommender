@@ -3,15 +3,12 @@
 ## Project Info
 
 **Smart Outfit Recommendation** is a web-based application that provides personalized outfit suggestions based on a user’s body measurements and body shape.  
-The system analyzes user inputs and generates styling recommendations along with visual insights to help users understand fashion trends.
+The system analyzes user inputs and generates styling recommendations, while leveraging **Google Charts** to present visual insights that help users easily understand outfit preferences and fashion trends.
 
----
 
-## How can I edit this code?
+## How can i run this code?
 
 There are several ways to edit and maintain this application.
-
----
 
 ### Use Your Preferred IDE (Recommended)
 
@@ -39,10 +36,10 @@ npm run dev
 
 The application will be available at:
 http://localhost:5173
-
+```
 ----
-Edit Files Directly on GitHub
-
+**Edit Files Directly on GitHub**
+```sh
 Navigate to the required file in the repository.
 
 Click the Edit (✏️) button.
@@ -59,53 +56,52 @@ Edit files directly in the browser.
 
 Commit and push changes when done.
 
-What does this project do?
+----
+```
+---
 
-Accepts user body measurements
+## 📌 **What does this project do?**
 
-Classifies body shape
+✔ Accepts user body measurements  
+✔ Classifies body shape  
+✔ Generates personalized outfit recommendations  
+✔ Displays AI-generated outfit inspiration  
+✔ Visualizes outfit preference trends using **Google technology**
 
-Generates personalized outfit recommendations
+---
 
-Displays AI-generated outfit inspiration
+## 🌐 **Google Technology Used**
 
-Visualizes outfit preference trends using Google technology
+### **Google Charts**
 
-Google Technology Used
-Google Charts
+This project integrates **Google Charts**, an official Google visualization library, to display outfit preference insights in a clear and interactive way.
 
-This project integrates Google Charts, an official Google visualization library, to display outfit preference insights.
+#### 🔍 Usage in the project
+- Visualizes outfit type distribution (**Casual, Formal, Ethnic, Sportswear**)  
+- Helps users understand fashion trends visually  
+- Enhances user experience with interactive charts  
 
-Usage in the project:
+#### ⭐ Why Google Charts?
+- **No API keys required**  
+- **Easy frontend integration**  
+- **Official Google technology**  
+- **Easily upgradeable** with real-time data (Supabase / AI)
 
-Visualizes outfit type distribution (Casual, Formal, Ethnic, Sportswear)
+---
 
-Helps users understand fashion trends visually
+## 🛠 **Technologies Used**
 
-Enhances user experience with interactive charts
+- **React** – Frontend UI library  
+- **Vite** – Build and development tool  
+- **TypeScript** – Type-safe JavaScript  
+- **Tailwind CSS** – Utility-first styling  
+- **shadcn/ui & Radix UI** – UI components  
+- **Supabase** – Backend services (functions, data)  
+- **Google Charts** – Data visualization (**Google Technology**)
 
-Why Google Charts?
-
-No API keys required
-
-Easy frontend integration
-
-Official Google technology
-
-Easily upgradeable with real data (Supabase / AI)
-
-Technologies Used
-
-React – Frontend UI library
-
-Vite – Build and development tool
-
-TypeScript – Type-safe JavaScript
-
-Tailwind CSS – Utility-first styling
-
-shadcn/ui & Radix UI – UI components
+---
 
 Supabase – Backend services (functions, data)
 
 Google Charts – Data visualization (Google Technology)
+
